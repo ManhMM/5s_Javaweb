@@ -1,0 +1,146 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.block-search {
+    padding: 100px;
+}
+
+.text-purple {
+    color: #7324bc !important;
+}
+
+.item-job {
+    color: #999;
+}
+
+.text-grey {
+    color: #999;
+}
+
+.page-info {
+    width: 100%;
+    min-height: 94px;
+    color: #999;
+}
+
+.page-info i {
+    font-size: 40px;
+    display: block;
+}
+
+.page-info-lite {
+    background-color: #fafafa;
+    padding: 5px;
+}
+
+.iconbox-wrap {
+    border-collapse: separate;
+    border-spacing: 0;
+    display: table;
+    height: auto;
+    min-height: 40px;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.iconbox {
+    display: table-row;
+}
+
+.iconbox-wrap-icon {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid rgba(255, 255, 255, .2);
+}
+
+.iconbox-wrap-content {
+    display: table-cell;
+    padding-left: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.footer-content {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    font-size: 14px;
+    padding: 40px 0;
+    color: #333;
+    background: #f5f5f5;
+}
+
+.bg-purple {
+    background-color: #7324bc;
+}
+
+.block-content {
+    margin-top: 90px;
+}
+
+.block-content .block-promotion .block-promotion__tag {
+    width: 40px;
+    height: 25px;
+    background-color: red;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    top: 15px;
+    left: 20px;
+}
+
+.block-evaluate {
+    background-color: #f8f8f8;
+}
+
+footer {
+    background: #5dbde6;
+}
+
+.block-breadcrumb {
+    background-color: #e9ecef;
+}
+
+.block-breadcrumb .breadcrumb {
+    margin-bottom: 0;
+    padding: 18px;
+}
+
+.bg-exam {
+    background-color: #d4d4d4;
+}
+
+.block-part {
+    box-shadow: 0px 0px 10px 2px #c3c3c3;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.date-format {
+    font-size: 13px;
+    font-style: italic;
+    color: #8f9292;
+}
+
+.fas {
+    line-height: unset;
+}
+
+.title-font {
+    font-size: 17px;
+    font-weight: 600;
+}
